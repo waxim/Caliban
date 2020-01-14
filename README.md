@@ -2,7 +2,7 @@
 
 A very simple python app to detect the genre of an audio file using a Mel Spectogram and a simple CNN with PyTorch.
 
-Currently we're trained with just 10 Geners using the GTZAN data set, but working to retrain on the Million Songs dataset for a wider array of results and geners.
+Currently we're trained with just 10 Geners using the GTZAN data set, but working to retrain on the Million Songs dataset for a wider array of results and geners. As shown here http://millionsongdataset.com/sites/default/files/AdditionalFiles/unique_terms.txt
 
 ## Usage
 ```
