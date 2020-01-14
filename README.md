@@ -1,8 +1,8 @@
 # 🧜 Caliban
 
-A very simple python app to detech the genre of a audio file using a Mel Spectogram and a simple CNN with PyTorch.
+A very simple python app to detect the genre of an audio file using a Mel Spectogram and a simple CNN with PyTorch.
 
-Current we're trained with just 10 Geners using the GTZAN data set, but working to retrain on the Million Songs dataset for a wider array of results and geners.
+Currently we're trained with just 10 Geners using the GTZAN data set, but working to retrain on the Million Songs dataset for a wider array of results and geners.
 
 ## Usage
 ```
