@@ -1,0 +1,25 @@
+version: '3'
+
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+
+volumes:
+  application:
+    driver: local
+
+services:
+  application:
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    ports:
+      - "80:80"
+      - "443:443"
+      - "5000:5000"
+    networks:
+      - frontend
+      - backend

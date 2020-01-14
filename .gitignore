@@ -1,0 +1,5 @@
+data/
+__pycache__
+raw_data.pkl
+set.pkl
+.DS_Store
