@@ -1,4 +1,4 @@
-# Caliban
+# 🧜 Caliban
 
 A very simple python app to detech the genre of a audio file using a Mel Spectogram and a simple CNN with PyTorch.
 
